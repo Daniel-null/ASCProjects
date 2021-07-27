@@ -1,0 +1,58 @@
+h3 {
+    /* color: rgb(251, 18, 69); */
+    color: #fb1245;    
+}
+
+body {
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(47, 104, 151), rgb(151, 132, 200));
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline wavy rgb(69, 27, 239);
+
+    font-family: 'Roboto', fantasy ;
+    color: white;
+}
+
+img {
+    height: 100px;
+}
+/*will look for every h2 inside the div perameter*/
+div h2 {
+    text-transform: uppercase;
+    color: black;
+}
+
+h2 {
+    color: white;
+}
+/*this is how u use id in css to specify a specific element */
+#middle p{
+    color: red;
+}
+
+#this {
+    color: red;
+}
+
+.imp {
+    color: pink;
+}
+
+.uppercase {
+    font-size: 80px;
+}
+.bigcase {
+    font-size: 12px;
+}
+
+#vaporeon {
+    border: 10px ridge pink;
+    /*padding a space between the image and the border */
+    padding: 10px;
+    /*it affects the very outside past padding, border, and then margin is the last layer*/
+    margin: 10px;
+}
