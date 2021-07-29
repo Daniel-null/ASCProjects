@@ -1,0 +1,36 @@
+div {
+    font-family: Helvetica;
+    background-color: #272d33;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+#big_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 60px;
+}
+
+/* psudoclasses 
+    checls to see what state
+    the elements in
+*/
+/* activate when hovering over element */
+.items:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+
+/* activates when element is pressed */
+.items:active {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}

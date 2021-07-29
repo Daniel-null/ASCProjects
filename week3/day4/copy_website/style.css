@@ -1,0 +1,13 @@
+div{
+    background-color: #041e42;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+.head {
+    display: flex;
+}
+
+.home {
+    text-decoration: underline;
+}
