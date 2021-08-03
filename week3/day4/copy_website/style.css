@@ -1,13 +1,53 @@
-div{
-    background-color: #041e42;
+span {
     color: white;
-    font-size: 14px;
     padding: 10px;
 }
+
+body {
+    font-family: Helvetica;
+}
 .head {
+    background-color: #041e42;
+    font-size: 14px;
+    padding: 10px;
+    padding-bottom: 2px;
+}
+
+.menu {
+    background-color: #041e42;
+    padding: 5px;
+}
+
+.ad1 {
+    background-color: #0071DC;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+div {
     display: flex;
 }
 
-.home {
+a {
+    text-decoration: none;
+}
+
+#walmart {
     text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+#wall {
+    width: 15px;
+}
+
+#f {
+    width: 15px;
+}
+
+#m {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1px;
 }

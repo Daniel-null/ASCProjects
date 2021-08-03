@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+h3 {
+    color: salmon;
+}
+
+h4 {
+    color: #ff4136;
+}
+
+h5 {
+    color: firebrick;
+}
+
+h6 {
+    color: burlywood;
+}
